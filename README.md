@@ -4,18 +4,19 @@
 
 **Note:** _Besides serving as an issue tracker for symphonyextensions.com and all things related to the extensions ecosystem this repository aims to provide a comprehensive set of best practices, guidelines and resources regarding extension development and maintenance. We encourage every extension developer to not only keep an eye on this repository (watch/star), but to join the discussion and help us build a platform that in the long run finally might define who, what and wherefore the "symphonists" are :)_
 
+<br/>
 
 ## Scope & Focus
 
-1. [ ] Extension Ecosystem
-2. [ ] Extension Development
-3. [x] **[Extension Publishing](#3-extension-publishing)**
-4. [ ] Extension Migration
-5. [x] **[Extension Adoption](#5-extension-adoption)**
-6. [ ] Extension Transfer
-7. [ ] Extension Consolidation
-8. [ ] Extension Deprecation
-9. [ ] Extension Request
+1. [ ] 1. Extension Ecosystem
+2. [ ] 2. Extension Development
+3. [x] 3. **[Extension Publishing](#3-extension-publishing)**
+4. [ ] 4. Extension Migration
+5. [x] 5. **[Extension Adoption](#5-extension-adoption)**
+6. [ ] 6. Extension Transfer
+7. [ ] 7. Extension Consolidation
+8. [ ] 8. Extension Deprecation
+9. [ ] 9. Extension Request
 
 <br/>
 
@@ -28,7 +29,7 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your `master` branch should always represent a "stable" build of the extension. Ongoing development and experimental stuff should happen in separate branches.
 2. Use **[github releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
 3. Use **[semantic versioning](http://semver.org/)** for your extension's version numbers. 
-4. Use **[git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. **[TODO: Best practices `1.0.0` vs `v1.0.0`]**
+4. Use **[git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. _**[TODO: Best practices `1.0.0` vs `v1.0.0`]**_
 5. Add a short **changelog** to each release listing all relevant changes since the previous release.
 
 ### B) Metadata, Documentation & Licenses
@@ -45,7 +46,7 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 
 1. Publish your extension on **[github](https://github.com/)**
 2. Publish your extension on **[symphonyextensions.com](http://symphonyextensions.com/)**
-3. Publish your extension on **[getsymphony.com](http://www.getsymphony.com/download/extensions/)** **[OR RATHER NOT...?]**
+3. Publish your extension on **[getsymphony.com](http://www.getsymphony.com/download/extensions/)** _**[OR RATHER NOT...?]**_
 4. You might also want to spread the word in the official **[chat](https://gitter.im/symphonycms/symphony-2)** or **[forums](http://www.getsymphony.com/discuss/)** to get some feedback about your extension.
 
 <br/>
