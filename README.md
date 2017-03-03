@@ -7,24 +7,25 @@
 
 ## Scope & Focus
 
-- [x] **Extension Adoption**
-- [ ] Extension Consolidation
-- [ ] Extension Deprecation
-- [ ] Extension Development
-- [ ] Extension Ecosystem
-- [ ] Extension Migration
-- [x] **Extension Publishing**
-- [ ] Extension Request
-- [ ] Extension Transfer
+1. [ ] Extension Ecosystem
+2. [ ] Extension Development
+3. [x] **[Extension Publishing](#3-extension-publishing)**
+4. [ ] Extension Migration
+5. [x] **[Extension Adoption](#5-extension-adoption)**
+6. [ ] Extension Transfer
+7. [ ] Extension Consolidation
+8. [ ] Extension Deprecation
+9. [ ] Extension Request
 
+<br/>
 
-## Extension Publishing
+## 3. Extension Publishing
 
 So you built an extension! Congratulations. Sometimes you'll only need an extension for a very narrow case, so maybe others won't find much use in it. However, if you think you're ready to make your extension public, here's a list of best practices you should follow:
 
 ### A) Branches, Releases & Version Numbers
 
-1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your **`master`** branch should always represent a "stable" build of the extension. Ongoing development and experimental stuff should happen in separate branches.
+1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your `master` branch should always represent a "stable" build of the extension. Ongoing development and experimental stuff should happen in separate branches.
 2. Use **[github releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
 3. Use **[semantic versioning](http://semver.org/)** for your extension's version numbers. 
 4. Use **[git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. **[TODO: Best practices `1.0.0` vs `v1.0.0`]**
@@ -36,7 +37,7 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 2. Add a descriptive **[markdown](https://guides.github.com/features/mastering-markdown/)**-formatted **[readme](https://help.github.com/articles/about-readmes/)** to your repo explaining what your extension does and how to use it.
 3. Keep your **readme** focussed. You don't have to include _everything_ in here – **[github wikis](https://help.github.com/articles/about-github-wikis/)** are a great way of providing additional documentation, tutorials or examples. <sup><a href="#extension-publishing-f1">1</a></sup>
 4. _If_ you set up a **wiki** you should mention it in the **readme**. A list of links to all wiki pages ain't a bad idea either.
-5. Make use of **[github topics](https://help.github.com/articles/about-topics/)** to tag your repo: **[`symphony-cms`](https://github.com/search?q=topic%3Asymphony-cms)** and **[`symphony-cms-extension`](https://github.com/search?q=topic%3Asymphony-cms-extension)** are the official recommended tags.
+5. Make use of **[github topics](https://help.github.com/articles/about-topics/)** to tag your repo: [`symphony-cms`](https://github.com/search?q=topic%3Asymphony-cms) and [`symphony-cms-extension`](https://github.com/search?q=topic%3Asymphony-cms-extension) are the official recommended tags.
 6. Add a valid **[licence](https://help.github.com/articles/licensing-a-repository/)** to your repo – **[MIT](https://choosealicense.com/licenses/mit/)** is a good choice that's used by Symphony itself too.
 
 
@@ -53,9 +54,10 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 		<b id="extension-publishing-f1">1)</b> This holds especially true if you plan to include <b>tables</b> in your readme – they're <a href="https://github.com/symphonists/symphony-extensions-network/issues/5">not supported</a> on <a href="http://symphonyextensions.com/">symphonyextensions.com</a> and are better of in a wiki.  
 	</sup>
 </p>
+<br/>
 
 
-## Extension Adoption
+## 5. Extension Adoption
 
 If you own extensions that you no longer want to support, update or care about we'd encourage you to take the following steps to help us find a new home for them:
 
@@ -79,4 +81,4 @@ If you don't give Nicolas admin access to the repo we'll need you to take action
 		<b id="extension-adoption-f1">1)</b> If the repository is owned by a user account you might need to set up a temporary organization to give other users permission to transfer the repository.  Please refer to the github help for details about <a href="https://help.github.com/articles/transferring-a-repository/">transferring a repository</a> and <a href="https://help.github.com/articles/repository-permission-levels-for-an-organization/">repository permission levels</a>. 
 	</sup>
 </p>
-
+<br/>
