@@ -22,14 +22,14 @@
 
 ## 3. Extension Publishing
 
-So you built an extension! Congratulations. Sometimes you'll only need an extension for a very narrow case, so maybe others won't find much use in it. However, if you think you're ready to make your extension public, here's a list of best practices you should follow:
+If you built an extension that might also be useful for other Symphony developers you should think about publishing it. Here's a list of **best practices** you should follow if you want to share your work with the community:
 
 ### A) Branches, Releases & Version Numbers
 
 1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your `master` branch should always represent a "stable" build of the extension. Ongoing development and experimental stuff should happen in separate branches.
-2. Use **[github releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
+2. Use **[releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
 3. Use **[semantic versioning](http://semver.org/)** for your extension's version numbers. 
-4. Use **[git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. _**[TODO: Best practices `1.0.0` vs `v1.0.0`]**_
+4. Use **[tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. Don't follow github's recommendation of adding a prefixed `v`, just use the plain version numbers as tag (e.g. `1.0.0` instead of `v1.0.0`)
 5. Add a short **changelog** to each release listing all relevant changes since the previous release.
 
 ### B) Metadata, Documentation & Licenses
@@ -38,7 +38,7 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 2. Add a descriptive **[markdown](https://guides.github.com/features/mastering-markdown/)**-formatted **[readme](https://help.github.com/articles/about-readmes/)** to your repo explaining what your extension does and how to use it.
 3. Keep your **readme** focussed. You don't have to include _everything_ in here – **[github wikis](https://help.github.com/articles/about-github-wikis/)** are a great way of providing additional documentation, tutorials or examples. <sup><a href="#extension-publishing-f1">1</a></sup>
 4. _If_ you set up a **wiki** you should mention it in the **readme**. A list of links to all wiki pages ain't a bad idea either.
-5. Make use of **[github topics](https://help.github.com/articles/about-topics/)** to tag your repo: [`symphony-cms`](https://github.com/search?q=topic%3Asymphony-cms) and [`symphony-cms-extension`](https://github.com/search?q=topic%3Asymphony-cms-extension) are the official recommended tags.
+5. Make use of **[github topics](https://help.github.com/articles/about-topics/)** to tag your repo: [`symphony-cms`](https://github.com/search?q=topic%3Asymphony-cms) and [`symphony-cms-extension`](https://github.com/search?q=topic%3Asymphony-cms-extension) are the official recommended tags for each extension-repository. Depending on the scope of your extension you might also want to add more specific topics (following the `symphony-cms-xyz`-syntax, e.g. [`symphony-cms-multilingual`](https://github.com/search?q=topic%3Asymphony-cms-multilingual)).
 6. Add a valid **[licence](https://help.github.com/articles/licensing-a-repository/)** to your repo – **[MIT](https://choosealicense.com/licenses/mit/)** is a good choice that's used by Symphony itself too.
 
 
@@ -46,8 +46,8 @@ So you built an extension! Congratulations. Sometimes you'll only need an extens
 
 1. Publish your extension on **[github](https://github.com/)**
 2. Publish your extension on **[symphonyextensions.com](http://symphonyextensions.com/)**
-3. Publish your extension on **[getsymphony.com](http://www.getsymphony.com/download/extensions/)** _**[OR RATHER NOT...?]**_
-4. You might also want to spread the word in the official **[chat](https://gitter.im/symphonycms/symphony-2)** or **[forums](http://www.getsymphony.com/discuss/)** to get some feedback about your extension.
+3. You might also want to spread the word in the official **[chat](https://gitter.im/symphonycms/symphony-2)** or **[forums](http://www.getsymphony.com/discuss/)** to get some feedback about your extension.
+4. The official **[Symphony website](http://www.getsymphony.com/download/extensions/)** also houses a collection of extensions but we don't recommend publishing new extensions there at the moment.
 
 <br/>
 <p>
