@@ -6,7 +6,7 @@
 
 <br/>
 
-## Scope & Focus
+## Chapters
 
 1. [ ] 1. Extension Ecosystem
 2. [ ] 2. Extension Development
@@ -29,7 +29,7 @@ If you built an extension that might also be useful for other Symphony developer
 1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your basic setup should contain a `master`-branch (representing the latest stable, tested and documented release) and an `integration`-branch (that is used for ongoing development and incoming pull requests and should cointain stable code too). Experimental and instable stuff should happen in separate feature-branches.
 2. Use **[releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
 3. Use **[semantic versioning](http://semver.org/)** for your extension's version numbers. 
-4. Use **[tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. Don't follow github's recommendation of adding a prefixed `v`, just use the plain version numbers as tag (e.g. `1.0.0` instead of `v1.0.0`)
+4. Use **[tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag your releases with the appropriate version number. Don't follow github's recommendation of adding a prefixed `v`, just use the plain version numbers as tag (e.g. `1.0.0` instead of `v1.0.0`)
 5. Add a short **changelog** to each release listing all relevant changes since the previous release.
 
 ### B) Metadata, Documentation & Licenses
