@@ -26,7 +26,7 @@ If you built an extension that might also be useful for other Symphony developer
 
 ### A) Branches, Releases & Version Numbers
 
-1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your `master` branch should always represent a "stable" build of the extension. Ongoing development and experimental stuff should happen in separate branches.
+1. Use **[branches](https://guides.github.com/introduction/flow/)** to develop and maintain your extension on github. Your basic setup should contain a `master`-branch (representing the latest stable, tested and documented release) and an `integration`-branch (that is used for ongoing development and incoming pull requests and should cointain stable code too). Experimental and instable stuff should happen in separate feature-branches.
 2. Use **[releases](https://help.github.com/articles/creating-releases/)** to publish versions of your extension on github.
 3. Use **[semantic versioning](http://semver.org/)** for your extension's version numbers. 
 4. Use **[tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)** to tag you releases with the appropriate version number. Don't follow github's recommendation of adding a prefixed `v`, just use the plain version numbers as tag (e.g. `1.0.0` instead of `v1.0.0`)
@@ -66,7 +66,7 @@ If you own extensions that you no longer want to support, update or care about w
 2. Give it a descriptive title: _"Extension Adoption: Extension Name"_.
 3. Add a link to the extension repository.
 4. Optionally add a short statement about the current state of the extension.
-5. If possible give [Nicolas](https://github.com/nitriques) admin access to the repo so he can manage the transfer for you. <sup><a href="#extension-adoption-f1">1</a></sup>
+5. If possible give Nicolas ([@nitriques](https://github.com/nitriques)) admin access to the repo so he can manage the transfer for you. <sup><a href="#extension-adoption-f1">1</a></sup>
 
 Depending on the state, popularity and usefulness of the extension we will then either …
 
